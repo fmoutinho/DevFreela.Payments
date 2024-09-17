@@ -20,7 +20,7 @@ namespace DevFreela.Payments.Application.GetPayment
             return new GetPaymentResponse
             {
                 Id = payment.Id,
-                CreaditCardNumber = payment.CreaditCardNumber,
+                CreaditCardNumber = payment.CreditCardNumber,
                 Cvv = payment.Cvv,
                 ExpiresAt = payment.ExpiresAt,
                 FullName = payment.FullName

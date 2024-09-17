@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevFreela.Payments.Domain.Payments
+namespace DevFreela.Payments.Infrastructure
 {
-    public interface IPaymentRepository
+    public static class DependencyInjection
     {
-        Task<Payment?> GetById(Guid id);
     }
 }
