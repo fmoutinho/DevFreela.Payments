@@ -1,4 +1,5 @@
 using DevFreela.Payments.Application;
+using DevFreela.Payments.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
