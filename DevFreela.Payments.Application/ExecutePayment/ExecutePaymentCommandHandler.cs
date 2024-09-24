@@ -7,7 +7,7 @@ namespace DevFreela.Payments.Application.ExecutePayment
     {
         public async Task<Result<Guid>> Handle(ExecutePaymentCommand request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return Result.Success(new Guid());
         }
     }
 }
