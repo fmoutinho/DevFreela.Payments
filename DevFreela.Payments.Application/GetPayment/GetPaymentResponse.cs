@@ -12,7 +12,7 @@ namespace DevFreela.Payments.Application.GetPayment
         public Guid Id { get; init; }
         public string CreaditCardNumber { get; init; }
         public string Cvv { get; init; }
-        public string ExpiresAt { get; init; }
+        public DateOnly ExpiresAt { get; init; }
         public string FullName { get; init; }
 
         public static GetPaymentResponse FromEntity(Payment payment)

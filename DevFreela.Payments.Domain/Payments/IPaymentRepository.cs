@@ -8,6 +8,7 @@ namespace DevFreela.Payments.Domain.Payments
 {
     public interface IPaymentRepository
     {
+        Task AddAsync(Payment payment);
         Task<Payment?> GetById(Guid id);
     }
 }
