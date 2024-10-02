@@ -16,11 +16,12 @@ namespace DevFreela.Payments.Infrastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    ProjectId = table.Column<int>(type: "int", nullable: false),
                     CreditCardNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Cvv = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ExpiresAt = table.Column<DateOnly>(type: "date", nullable: false),
                     FullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Value = table.Column<double>(type: "float", nullable: false)
+                    Value = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
                 {
