@@ -4,7 +4,6 @@ using DevFreela.Payments.Domain.Payments;
 namespace DevFreela.Payments.Application.ExecutePayment
 {
     public record ExecutePaymentCommand(
-         int ProjectId,
          string CreditCardNumber,
          string Cvv,
          DateOnly ExpiresAt,

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFreela.Payments.Applicat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFreela.Payments.Domain", "DevFreela.Payments.Domain\DevFreela.Payments.Domain.csproj", "{576CF5D7-7B94-4F21-8556-7BC01DF37D2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.Payments.Infrastructure", "DevFreela.Payments.Infrastructure\DevFreela.Payments.Infrastructure.csproj", "{559F6473-C9BC-4FCF-BD82-C09808BF1235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFreela.Payments.Infrastructure", "DevFreela.Payments.Infrastructure\DevFreela.Payments.Infrastructure.csproj", "{559F6473-C9BC-4FCF-BD82-C09808BF1235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.Payments.Consumers", "DevFreela.Payments.Consumers\DevFreela.Payments.Consumers.csproj", "{9E89CD25-0D9A-4959-B337-0A82274C754B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{559F6473-C9BC-4FCF-BD82-C09808BF1235}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{559F6473-C9BC-4FCF-BD82-C09808BF1235}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{559F6473-C9BC-4FCF-BD82-C09808BF1235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E89CD25-0D9A-4959-B337-0A82274C754B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E89CD25-0D9A-4959-B337-0A82274C754B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E89CD25-0D9A-4959-B337-0A82274C754B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E89CD25-0D9A-4959-B337-0A82274C754B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
