@@ -18,8 +18,9 @@ namespace DevFreela.Payments.Infrastructure.Migrations
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CreditCardNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Cvv = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ExpiresAt = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    FullName = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    ExpiresAt = table.Column<DateOnly>(type: "date", nullable: false),
+                    FullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Value = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {

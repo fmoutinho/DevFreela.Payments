@@ -8,11 +8,12 @@ namespace DevFreela.Payments.Application.ExecutePayment
          string CreditCardNumber,
          string Cvv,
          DateOnly ExpiresAt,
-         string FullName) : ICommand<Guid>
+         string FullName,
+         double Value) : ICommand<Guid>
     {
         public Payment ToEntity()
         {
-            return new Payment(ProjectId, CreditCardNumber, Cvv, ExpiresAt, FullName);
+            return new Payment(CreditCardNumber, Cvv, ExpiresAt, FullName, Value);
         }
     }
 }

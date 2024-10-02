@@ -10,6 +10,7 @@ namespace DevFreela.Payments.Application.GetPayment
     public sealed class GetPaymentResponse
     {
         public Guid Id { get; init; }
+        public int ProjectId { get; init; }
         public string CreaditCardNumber { get; init; }
         public string Cvv { get; init; }
         public DateOnly ExpiresAt { get; init; }
